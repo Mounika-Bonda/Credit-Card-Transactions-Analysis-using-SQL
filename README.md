@@ -1,2 +1,2 @@
 # SQL_Projects
-Credit_card_transactions dataset from Kaggle
+The dataset used[Credit_card_transactions] in this project from Kaggle. Used various queries and functions in SSMS (SQL Server Management Studio) 
