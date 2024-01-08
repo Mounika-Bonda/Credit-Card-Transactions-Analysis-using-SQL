@@ -55,10 +55,9 @@ having sum(amount) > 559000
 --cte(Common table expression)
 with total_amount(total_amount_per_cardtype) as 
 (select sum(amount) as total_amount_per_cardtype from credit_card group by card_type),
-
 average_amount (avg_total_amount) as
 (select avg(total_amount_per_cardtype) as avg_total_amount from total_amount )
-
 select *  from average_amount av join total_amount ta on ta.total_amount_per_cardtype > av.avg_total_amount
+
 
 
